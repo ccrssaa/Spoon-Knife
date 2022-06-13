@@ -31,4 +31,4 @@ jobs:
                   ssh-private-key: ${{ secrets.TEST_SSH_PRIVATE_KEY }}
                   
             - name: test run
-              run: ssh -p 22344 root@infra.rabata.io uname -a
+              run: ssh -p 22344 -o StrictHostKeyChecking=accept-new vadim@infra.rabata.io uname -a
