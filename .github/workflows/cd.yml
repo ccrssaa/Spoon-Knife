@@ -29,6 +29,6 @@ jobs:
         with:
           ssh-private-key: ${{ secrets.TEST_SSH_PRIVATE_KEY }}
       
-      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}.
-      - run: echo github.workspace = ${{ github.workspace }}
+      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
+      - run: echo "github.workspace = ${{ github.workspace }}"
         
