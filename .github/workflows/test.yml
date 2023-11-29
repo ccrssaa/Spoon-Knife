@@ -31,4 +31,4 @@ jobs:
                   ssh-private-key: ${{ secrets.TEST_SSH_PRIVATE_KEY }}
                   
             - name: test run
-              run: ssh -o StrictHostKeyChecking=accept-new deployer@zeta.cs.petrsu.ru uname -a
+              run: ssh -o StrictHostKeyChecking=accept-new vadim@zeta.cs.petrsu.ru uname -a
