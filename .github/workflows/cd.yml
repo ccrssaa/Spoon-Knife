@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
 
 env:
-  TARGET_HOST: infra.rabata.io
+  TARGET_HOST: zeta.cs.petrsu.ru
   TARGET_USER: vadim
-  TARGET_DIR: /home/vadim/deploys
+  TARGET_DIR: /home/03/vadim/my/2023/itmo-instr/deploys
 
 
 jobs:
